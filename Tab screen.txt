@@ -1,0 +1,12 @@
+Поменял паддинги и размер экрана в контейнере
+.courses-intro {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* gap: 58px; */
+        margin-bottom: 50px;
+    }
+
+.courses-intro убрать следы дисплай флекс в 768рх (сделать инлайн флекс?)
+.courses-list - убрать следы дисплай флекс в 1280рх

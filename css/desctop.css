@@ -1,142 +1,76 @@
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
+        min-width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
-    /**======HEADER=============================*/
 
-    .header-logo {
-        margin-right: 76px;
+    /**===OUR-COURSES=======================!*/
+
+    .courses {
+        padding-bottom: 150px;
     }
 
-    .header-address-list {
-        flex-direction: row;
-        gap: 40px;
+    .courses-intro {
+        justify-content: space-between;
+        gap: 0;
+        margin-bottom: 50px;
     }
 
-    .header-address-link {
-        font-size: 16px;
-        line-height: 1.5;
+    .courses-title-text {
+        max-width: 405px;
     }
 
-    .mob-menu {
-        display: none;
-    }
 
-    /**=======Solutions=========================*/
-
-    .solutions {
-        padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/FullScr/people-office-1x.jpg);
-    }
-
-    @media (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .solutions {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)),
-                url(../images/FullScr/people-office-2x.jpg);
-        }
-    }
-
-    .main-solutions-title {
-        margin-bottom: 48px;
-    }
-
-    /**==========FEATURES=======================!*/
-
-    .features {
-        padding: 120px 0;
-    }
-
-    .feature-icon-item {
+    .courses-list {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 112px;
-        background-color: #f4f4fd;
-        border-radius: 4px;
-        margin-bottom: 8px;
-        padding: 24px 0;
-        border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-    }
-
-    .features-list-item {
-        width: calc((100% - 72px) / 4);
-    }
-
-    .features-subtitle {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    }
-
-    .features-list-text {
-        font-weight: 400;
-    }
-
-    /**=======TEAM============================*/
-    .team {
-        padding: 120px 0;
-    }
-
-    /**===PORTFOLIO========================*/
-
-    .portfolio {
-        padding: 120px 0;
-    }
-
-    .portfolio-list {
-        gap: 48px 24px;
-    }
-
-    .portfolio-list-item {
-        width: calc((100% - 48px) / 3);
-    }
-
-    .portfolio-list-item:hover,
-    .portfolio-list-item:focus {
-        border: 1px solid var(--CLOUD, #f4f4fd);
-        background: var(--WHITE, #fff);
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-            0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-            0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    }
-
-    .portfolio-list-item:hover .portfoio-image-text {
-        display: flex;
-        transform: translateY(0);
-    }
-
-    .portfoio-image-wrap {
-        position: relative;
-        overflow: hidden;
-    }
-
-    /**===FOOTER=============================*/
-    .footer {
-        padding: 100px 0;
-    }
-
-    .container-footer {
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin: 0 auto;
         justify-content: space-between;
     }
 
-    .footer-logo-text {
-        margin: 0 120px 0 0;
+    .courses-list-item {}
+
+    .courses-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+        padding: 28px;
+        height: 398px;
     }
 
-    .soc-net {
-        margin-right: 80px;
+    .list-box {}
+
+    .courses-list-number {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 28px;
     }
 
-    .footer-form-label {
-        margin-right: 24px;
+    .list-number {
+        color: rgba(255, 255, 255, 0.40);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
     }
 
-}
+    .icon-item {}
+
+    .list-link {}
+
+    .icon-img {}
+
+    .courses-subtitle {
+        width: 265px;
+    }
+
+    .courses-list-text {
+        width: 283px;
+    }

@@ -126,6 +126,10 @@ img {
     letter-spacing: -0.02em;
 }
 
+.icon-item {}
+
+.list-link {}
+
 .icon-img {}
 
 .courses-subtitle {
@@ -142,4 +146,5 @@ img {
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
+    width: 279px;
 }
