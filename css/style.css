@@ -126,11 +126,23 @@ img {
     letter-spacing: -0.02em;
 }
 
-.icon-item {}
+.icon-item {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #1D1D1D;
+}
 
-.list-link {}
+.list-link {
+    margin: 0 auto;
+}
 
-.icon-img {}
+.icon-img {
+    fill: #777777;
+}
+
 
 .courses-subtitle {
     color: #FFF;
