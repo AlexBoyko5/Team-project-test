@@ -96,8 +96,6 @@ img {
     margin: 0 auto;
 }
 
-.courses-list-item {}
-
 .courses-content {
     display: flex;
     flex-direction: column;
@@ -108,8 +106,6 @@ img {
     padding: 28px;
     height: 398px;
 }
-
-.list-box {}
 
 .courses-list-number {
     display: flex;

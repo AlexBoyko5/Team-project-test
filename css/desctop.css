@@ -31,8 +31,6 @@
         justify-content: space-between;
     }
 
-    .courses-list-item {}
-
     .courses-content {
         display: flex;
         flex-direction: column;
@@ -43,8 +41,6 @@
         padding: 28px;
         height: 398px;
     }
-
-    .list-box {}
 
     .courses-list-number {
         display: flex;
