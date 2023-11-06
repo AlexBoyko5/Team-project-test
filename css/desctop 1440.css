@@ -1,0 +1,30 @@
+@media screen and (min-width: 1440px) {
+    .container {
+        min-width: 1440px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+
+    /**===OUR-COURSES=======================!*/
+
+    .courses-title-text {
+        max-width: 565px;
+    }
+
+    .courses-content {
+        width: 400px;
+    }
+
+    .icon-item:hover {
+        background-color: #BEA69E;
+    }
+
+    .icon-item:hover .icon-img {
+        fill: #fff;
+    }
+
+    .courses-list-text {
+        width: 336px;
+    }
+}
