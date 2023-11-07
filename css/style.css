@@ -44,7 +44,7 @@ img {
 }
 
 .container {
-    max-width: 375px;
+    max-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
@@ -146,7 +146,7 @@ img {
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
-    width: 279px;
+    max-width: 279px;
 }
 
 .courses-list-text {
@@ -155,5 +155,5 @@ img {
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    width: 279px;
+    max-width: 279px;
 }

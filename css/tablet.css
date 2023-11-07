@@ -36,7 +36,7 @@
 
     .courses-content {
         padding: 32px;
-        width: 342px;
+        max-width: 342px;
         height: 452px;
     }
 
@@ -45,7 +45,7 @@
     }
 
     .courses-subtitle {
-        width: 265px;
+        max-width: 265px;
     }
 
     .courses-list-text {

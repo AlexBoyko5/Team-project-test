@@ -13,7 +13,7 @@
     }
 
     .courses-content {
-        width: 400px;
+        max-width: 400px;
     }
 
     .icon-item:hover {
@@ -25,6 +25,6 @@
     }
 
     .courses-list-text {
-        width: 336px;
+        max-width: 336px;
     }
 }

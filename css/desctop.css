@@ -12,12 +12,6 @@
         padding-bottom: 150px;
     }
 
-    .courses-intro {
-        justify-content: space-between;
-        gap: 0;
-        margin-bottom: 50px;
-    }
-
     .courses-title-text {
         max-width: 405px;
     }
@@ -30,7 +24,7 @@
     }
 
     .courses-content {
-        width: 347px;
+        max-width: 347px;
 
     }
 
@@ -43,6 +37,6 @@
     }
 
     .courses-list-text {
-        width: 283px;
+        max-width: 283px;
     }
 }
